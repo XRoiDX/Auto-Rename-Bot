@@ -37,9 +37,8 @@ class Txt(object):
     
 ➻ Use /tutorial Command To Know How To Use Me.
 
-<b>Bot Is Made By @AshutoshGoswami24</b>
+<b>Bot Is Made By @Hexa_Botz</b>
 
-<b><a href='https://github.com/AshutoshGoswami24/Auto-Rename-Bot'>AshutoshGoswami24/Auto-Rename-Bot.git</a></b>
 """
     
     FILE_NAME_TXT = """<b><u>SETUP AUTO RENAME FORMAT</u></b>
@@ -57,9 +56,8 @@ Use These Keywords To Setup Custom File Name
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>🧑‍💻 Developer :</b> <a href='https://t.me/AshutoshGoswami24'>PandaWep</a>
     
-<b>♻️ Bot Made By :</b> @AshutoshGoswami24"""
+"""
 
     
     THUMBNAIL_TXT = """<b><u>🖼️  HOW TO SET THUMBNAIL</u></b>
@@ -81,19 +79,13 @@ Use These Keywords To Setup Custom File Name
 ┣⪼ ⏳️ Dᴏɴᴇ : {0}%
 ┣⪼ 🚀 Sᴩᴇᴇᴅ: {3}/s
 ┣⪼ ⏰️ Eᴛᴀ: {4}
-┣⪼ 🥺 joine Plz: @AshutoshGoswami24
+┣⪼  ✓
 ╰━━━━━━━━━━━━━━━➣ </b>"""
     
     
-    DONATE_TXT = """<b>🥲 Thanks For Showing Interest In Donation! ❤️</b>
+    DONATE_TXT = """Contact My Admin @niggasura"""
     
-If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
-    
-<b>My UPI - PandaWep@ybl</b> """
-    
-    HELP_TXT = """<b>Hey</b> {}
-    
-Joine @AshutoshGoswami24 To Help """
+    HELP_TXT = """Contact Admin"""
 
 
 
