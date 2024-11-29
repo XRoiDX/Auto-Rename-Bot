@@ -3,21 +3,21 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", "7236453")
+    API_HASH  = os.environ.get("API_HASH", "33010a70e94f80e55145980072cce969")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7752937328:AAHmSRRliOPEsUOaDGKtUyOEt9SW_BVZKmo") 
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","AshutoshGoswami24")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://videshi:videshi@videshi.wtffv.mongodb.net/?retryWrites=true&w=majority&appName=videshi")
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
+    START_PIC   = os.environ.get("START_PIC", "https://envs.sh/3tS.jpg")
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7873618934').split()]
     # -- FORCE_SUB_CHANNELS = ["BotzPW","AshuSupport","AshutoshGoswami24"] -- # 
-    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', 'AshutoshGoswami24,BotzPW').split(',')
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', 'zooistore').split(',')
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002447703798"))
     PORT = int(os.environ.get("PORT", ""))
     
     # wes response configuration     
@@ -37,9 +37,8 @@ class Txt(object):
     
 ➻ Use /tutorial Command To Know How To Use Me.
 
-<b>Bot Is Made By @AshutoshGoswami24</b>
+<b>Bot Is Made By @Hexa_Botz</b>
 
-<b><a href='https://github.com/AshutoshGoswami24/Auto-Rename-Bot'>AshutoshGoswami24/Auto-Rename-Bot.git</a></b>
 """
     
     FILE_NAME_TXT = """<b><u>SETUP AUTO RENAME FORMAT</u></b>
@@ -57,9 +56,8 @@ Use These Keywords To Setup Custom File Name
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>🧑‍💻 Developer :</b> <a href='https://t.me/AshutoshGoswami24'>PandaWep</a>
     
-<b>♻️ Bot Made By :</b> @AshutoshGoswami24"""
+"""
 
     
     THUMBNAIL_TXT = """<b><u>🖼️  HOW TO SET THUMBNAIL</u></b>
@@ -81,19 +79,13 @@ Use These Keywords To Setup Custom File Name
 ┣⪼ ⏳️ Dᴏɴᴇ : {0}%
 ┣⪼ 🚀 Sᴩᴇᴇᴅ: {3}/s
 ┣⪼ ⏰️ Eᴛᴀ: {4}
-┣⪼ 🥺 joine Plz: @AshutoshGoswami24
+┣⪼  ✓
 ╰━━━━━━━━━━━━━━━➣ </b>"""
     
     
-    DONATE_TXT = """<b>🥲 Thanks For Showing Interest In Donation! ❤️</b>
+    DONATE_TXT = """Contact My Admin @niggasura"""
     
-If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
-    
-<b>My UPI - PandaWep@ybl</b> """
-    
-    HELP_TXT = """<b>Hey</b> {}
-    
-Joine @AshutoshGoswami24 To Help """
+    HELP_TXT = """Contact Admin"""
 
 
 
